@@ -12,7 +12,8 @@ class CartItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(10),
-      child: Row(
+      child: Flex(
+        direction: Axis.horizontal,
         children: <Widget>[
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
@@ -26,14 +27,20 @@ class CartItem extends StatelessWidget {
           SizedBox(
             width: 20,
           ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Text(title,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-              Text(subtitle, style: TextStyle(height: 1.5)),
-              Text('\$' + price),
-            ],
+          Expanded(
+            flex: 2,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  title,
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  overflow: TextOverflow.ellipsis,
+                ),
+                Text(subtitle, style: TextStyle(height: 1.5)),
+                Text('\$' + price),
+              ],
+            ),
           )
         ],
       ),

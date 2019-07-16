@@ -1,16 +1,20 @@
-# fruit_shop
+## 使用Flutter开发一款 [水果茶App]
 
-A new Flutter project.
+### App截图
+- 首页
 
-## Getting Started
+<img src="http://qiniu.tbmao.com/fruitapphome.jpg" width="300" >
 
-This project is a starting point for a Flutter application.
+- 详情页
 
-A few resources to get you started if this is your first Flutter project:
+<img src="http://qiniu.tbmao.com/fruitappdetails.jpg" width="300" >
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- 购物车
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="http://qiniu.tbmao.com/fruitappcart.jpg" width="300" >
+
+### [视频演示](http://qiniu.tbmao.com/fruitappvideo.mp4) (点击即可播放)
+
+
+### [样式参照](https://dribbble.com/shots/6782379-Summer-Cold-Drink)
+<img src="http://qiniu.tbmao.com/fruitappfruit-shop.png" width="600" >
