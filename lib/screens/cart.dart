@@ -10,7 +10,7 @@ class Cart extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
           child: Flex(
             direction: Axis.vertical,
             crossAxisAlignment: CrossAxisAlignment.start,
